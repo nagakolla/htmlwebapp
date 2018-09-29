@@ -34,19 +34,23 @@ ul {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+    max-width: 1060px;
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color: /* */;
+    background-color: #2b57ce;
     color: whitesmoke;
+    
 }
 
 header img {
     width: 250px;
     height: auto;
     float: right;
+    border-radius: 25px;
+    box-shadow: 8px 8px rgba(142, 67, 0, 0.28);
+    margin-right: 20px;
 }
 
 footer {
